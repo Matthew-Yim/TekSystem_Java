@@ -54,7 +54,6 @@ public class Main {
         //Auto cast
         byte a5 =40, b5=50, c=100;
         int d = a5 * b5 / c; //solution is 200 which is beyond the scope of an byte so auto convert to int
-
         //Error stuff
         byte x5 = 50;
             x5 = (byte)(x5*2); // need a byte cast in order for it to work
