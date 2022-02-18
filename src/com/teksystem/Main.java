@@ -79,6 +79,7 @@ public class Main {
             System.out.printf("2: This class has %-10.2f, class of %d.", x1, y1);
             System.out.println("Hello");
             System.out.println(String.format("This class has %d, class of %d.", x1, y1)); // To not to waste variables
+
     }// main method
 
 
