@@ -52,12 +52,12 @@ public class Main {
         System.out.println(z);
 
         //Auto cast
-        byte a =40, b=50, c=100;
-        int d = a * b / c; //solution is 200 which is beyond the scope of an byte so auto convert to int
+        byte a5 =40, b5=50, c=100;
+        int d = a5 * b5 / c; //solution is 200 which is beyond the scope of an byte so auto convert to int
 
         //Error stuff
-        byte x = 50;
-            x = (byte) (x*2); // need a byte cast in order for it to work
+        byte x5 = 50;
+            x5 = (byte)(x5*2); // need a byte cast in order for it to work
 
         // Formating Floating Point Numbers
             int x1 = 25; // For normal numbers
@@ -79,7 +79,6 @@ public class Main {
             System.out.printf("2: This class has %-10.2f, class of %d.", x1, y1);
             System.out.println("Hello");
             System.out.println(String.format("This class has %d, class of %d.", x1, y1)); // To not to waste variables
-
     }// main method
 
 
