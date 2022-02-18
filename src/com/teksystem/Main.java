@@ -51,7 +51,7 @@ public class Main {
         float f = 5F/2;
         System.out.println(z);
 
-        //Auto cast
+        //Auto cast 4543545345
         byte a5 =40, b5=50, c=100;
         int d = a5 * b5 / c; //solution is 200 which is beyond the scope of an byte so auto convert to int
         //Error stuff
