@@ -78,6 +78,39 @@ public class Main {
             System.out.printf("2: This class has %-10.2f, class of %d.", x1, y1);
             System.out.println("Hello");
             System.out.println(String.format("This class has %d, class of %d.", x1, y1)); // To not to waste variables
+
+        // Wrapper / UnBoxing
+        //int banana = 10; // vs.
+        Integer Banana = 10;
+        Integer.MAX_VALUE
+        // Char stuff
+        char l = 85;
+        System.out.println(l); // Produces letter U
+        int ll = 'a'; // Saves number 97
+        System.out.println(Character.isDigit(('0'))); //Should print out True
+        int i = Character.compare('a','a');
+        System.out.println(i); // Should print out 0 cuz they are equal
+
+        // special functions
+        Double x1 = Math.min(10.5, 30);
+        if (x1 instanceof Double){
+            System.out.println("It is true x is a instance of a Double");
+        }
+        else{
+            System.out.println("It is indeed false, I am not an instance of a Double");
+        }
+        double x3 = Math.random()*10+1; // random num between 0-10
+        System.out.println((int) x3);
+        Random r = new Random();        // Same thing just another way
+        System.out.println(r.nextInt(11));
+
+        // String Stuff
+        String s = "hello ";
+        System.out.println(s);
+        s = s + " world";
+        System.out.println(s); // output is "hello world"
+
+
     }// main method
 
 
